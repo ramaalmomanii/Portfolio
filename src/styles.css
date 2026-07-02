@@ -1,1 +1,301 @@
 /* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  --primary: #ff6fa5;
+  --primary-light: #ffc2d9;
+  --primary-dark: #d1477a;
+  --bg-soft: #fff5f8;
+  --text-dark: #3a2e35;
+  --white: #ffffff;
+  --shadow-soft: 0 8px 24px rgba(255, 111, 165, 0.15);
+  --card-bg: #ffffff;
+}
+body.dark-mode {
+  --bg-soft: #1a1620;
+  --text-dark: #f1e9f0;
+  --white: #241f2e;
+  --card-bg: #2b2438;
+  --primary: #ff8fb8;
+  --primary-dark: #ffb3cf;
+}
+
+body {
+  background: var(--bg-soft);
+  color: var(--text-dark);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.project-card {
+  background: var(--card-bg);
+  transition: background 0.3s ease;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-soft);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+section {
+  padding: 4rem 2rem;
+  scroll-margin-top: 80px;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, var(--white), var(--bg-soft));
+  box-shadow: var(--shadow-soft);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(6px);
+}
+
+  .navbar .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    letter-spacing: 0.5px;
+  }
+
+  .navbar .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+    .navbar .nav-links li {
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--text-dark);
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+      .navbar .nav-links li::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: var(--primary);
+        transition: width 0.3s ease;
+      }
+
+      .navbar .nav-links li:hover {
+        color: var(--primary-dark);
+      }
+
+        .navbar .nav-links li:hover::after {
+          width: 100%;
+        }
+
+
+/* RTL */
+html[dir="rtl"] .navbar {
+  direction: rtl;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary);
+  box-shadow: var(--shadow-soft);
+}
+
+.navbar .lang-btn {
+  padding: 0.5rem 1.3rem;
+  border: none;
+  border-radius: 30px;
+  background: var(--primary);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+  .navbar .lang-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+  }
+.theme-toggle {
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  background: var(--primary-light, #ffc2d9);
+  position: relative;
+  cursor: pointer;
+  padding: 3px;
+  box-shadow: var(--shadow-soft);
+  transition: background 0.3s ease;
+}
+
+  .theme-toggle.dark {
+    background: #3d3550;
+  }
+
+.toggle-circle {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.theme-toggle.dark .toggle-circle {
+  transform: translateX(30px);
+  background: #1a1620;
+}
+.navbar .theme-btn {
+  padding: 0.5rem 0.9rem;
+  border: none;
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--primary-dark);
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .navbar .theme-btn:hover {
+    background: var(--primary-light);
+    transform: translateY(-2px) rotate(15deg);
+  }
+
+body.dark-mode .navbar .theme-btn {
+  background: var(--card-bg);
+  color: var(--primary);
+}
+
+.footer-name {
+  font-weight: 500;
+  color: var(--primary-dark);
+}
+
+.main-footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, var(--white), var(--bg-soft));
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  color: var(--text-dark);
+  font-size: 0.85rem;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+  .main-footer .socials {
+    display: flex;
+    gap: 1rem;
+  }
+
+    .main-footer .socials a {
+      color: var(--text-dark);
+      font-size: 1.1rem;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+      .main-footer .socials a:hover {
+        color: var(--primary);
+        transform: translateY(-2px);
+      }
+
+
+/* Home Section */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1.25rem;
+  background: var(--card-bg);
+}
+
+
+  .home-container .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 70%;
+    border: 4px solid var(--primary, #ff6fa5);
+    box-shadow: 0 8px 24px rgba(255, 111, 165, 0.25);
+  }
+
+  .home-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: var(--primary, #ff6fa5);
+    margin: 0;
+  }
+
+  .home-container .subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: var(--text-dark);
+  }
+
+  .home-container .details {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    max-width: 650px;
+    color: var(--text-secondary, #666);
+    line-height: 1.8;
+  }
+  /*about screen*/
+/*.about-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1.25rem;
+  background: var(--card-bg);
+}
+*/

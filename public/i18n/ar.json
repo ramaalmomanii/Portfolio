@@ -1,0 +1,114 @@
+{
+  "HOME": "الصفحة الرئيسية",
+  "PROJECTS": "المشاريع",
+  "ABOUT": "من أنا",
+  "SKILLS": "المهارات",
+  "Education": "التعليم",
+  "VIEW_PROJECT": "عرض المشروع",
+  "FOOTER": "جميع الحقوق محفوظة",
+  "RAMA_AL_MOMANI": "راما المومني",
+  "Personal_Info": "معلومات شخصية",
+  "CONTACT": "تواصل معي",
+  "WELCOME": "مرحبًا بك في موقعي الشخصي",
+  "DESCRIPTION": "أنا مطورة ويب متحمسة ومصممة واجهات مستخدم، أعمل على إنشاء تجارب رقمية رائعة.",
+  "DESCRIPTION_MORE_DETAILS": " مطورة ويب كاملة المهارات للعمل على الواجهة الخلفية باستخدام .NET C# و الواجهة الأمامية باستخدام ANGULER ",
+  "EXPERIENCE": {
+    "TITLE": "الخبرة",
+    "CURNT_JOB": "الوظيفة الحالية: مطورة ويب  مبتدئة في شركة دليل لتكنولوجيا المعلومات",
+    "TRAINING_ASP_NET": "التدريب: مطوّرة ASP.NET Core متدربة (أيار - تشرين الأول 2025)، أنجزت مشاريع متكاملة شملت نظام إدارة مدرسية، صالة رياضية، ومتجر إلكتروني باستخدام C#, ASP.NET Core, SQL Server, MongoDB, وAngular",
+    "YU_REPRESENTATIVE": "ممثلة ومنظمة في جامعة اليرموك: مثّلت الجامعة ونظّمت فعاليات في معرض مهرجان الوظائف (Career Expo) 2025 بجامعة الحسين التقنية",
+    "IEC_VOLUNTEER": "متطوعة في الهيئة المستقلة للانتخابات (2024): شاركت في حملة توعية باب الى باب حول أهمية المشاركة الانتخابية، وساعدت في تنظيم وإرشاد المواطنين بمراكز الاقتراع يوم الانتخاب",
+    "HULT_PRIZE_AMBASSADOR": "سفيرة Hult Prize (2023): روّجت لريادة الأعمال من خلال ورش عمل وحملات توعية بالمسابقة داخل الجامعة",
+    "BOOK_AUTHOR": "مؤلفة كتاب One-to-Many (منذ 2022): نشرت كتابًا تعليميًا ذاتيًا يغطي مخططات ERD ومفاهيم SQL، متوفر في مكتبات محلية ويستخدمه طلاب الجامعات",
+    "VOLUNTEER_WORK": "العمل التطوعي: تقديم دورة لطلاب الجامعة عن  مبادئ تطوير الويب كانت بعنوان  تطوير الويب 101 على مدار ساعتين متواصلتين بحضور  اكثر من 30 طالبا.",
+    "YU_EDU": "التعليم: حاصل على درجة البكالوريوس في علوم الحاسوب من جامعة اليرموك بتقدير جيد جدًا وبمعدل 82.2",
+    "HTUx_CERTIICATS": "اتمام مسار تطوير الويب الكامل على منصة جامعة الحسين التقنية  وحصلت على شهادة اجتياز المسار بنجاح.",
+    "HTUx_AMBASSADOR": "سفير منصة جامعة الحسين التقنية: تم اختياري كسفير لمنصة الجامعة في عام 2025، حيث أقوم بتمثيل منصة الجامعة والمشاركة في الفعاليات والأنشطة المختلفة."
+
+  },
+
+  "DESCRIPTION_SECTION": {
+    "TITLE": "حول الموقع",
+    "DESCRIPTION": "هذا الموقع الشخصي يعرض أعمالي ومشاريعي، ويتيح للزوار التعرف عليّ والتواصل معي."
+  },
+
+  "PROJECTS_SECTION": {
+    "TITLE": "مشاريعي",
+    "DESCRIPTION": "هنا بعض المشاريع التي عملت عليها مؤخرًا.",
+
+    "PROJECT_1": {
+      "TITLE": "مشروع  التخرج : نظام ري ذكي يعتمد على الذكاء الاصطناعي ",
+      "DESCRIPTION": " مشروع  التخرج : نظام ري ذكي يعتمد على الذكاء الاصطناعي لمراقبه الرطوبة الجوية ورطوبة التربة و مستوى الماء المتوفر في الخزان بتطوير الحساسات و ربطها معا و تطوير قاعده البيانات السحابية و عمل تطبيق ويب للتحكم بهذه الحساسات وضخ المياه عن بعد",
+      "TECHNOLOGIES_USED": "التقنيات المستخدمة: Python, React, MongoDB, C++, ESP8266, IoT Sensors",
+      "Team_Size": "حجم الفريق: 4 أعضاء",
+      "ROLE": "الدور: قائد الفريق لمدة شهرين و تجميع الفريق و تطور الواجهة الخلفية و بناء الحساسات وربط المشروع بقاعدة البيانات وتطوير قاعدة البيانات بالكامل  ",
+      "LINK": "https://github.com/ramaalmomanii/Smart-Greenhouse-AI"
+    },
+
+    "PROJECT_2": {
+      "TITLE": "EventHub",
+      "DESCRIPTION": "مشروع نهاية التدريب كان الهدف منه تطوير مهاراتي بالعمل على مشروع وتطبيق ما تعلمته بشكل فردي فكانت فكرته قائمه على عرض الايفنت و الفاليات من قبل المنظمين و اداره اصدار التذاكر و الحجوزات ",
+      "TECHNOLOGIES_USED": "التقنيات المستخدمة: Angular, .NET C#, SQL Server",
+      "Team_Size": "حجم الفريق: 1 عضو",
+      "ROLE": "الدور: بناء الواجهة الخلفية و تطور قاعدة البيانات و بناء واجهة المستخدم",
+      "LINK": "https://github.com/ramaalmomanii/EventHub"
+    },
+    "PROJECT_3": {
+      "TITLE": "مشروع السيرة الذاتية",
+      "DESCRIPTION": "الموقع الذي ترونه امامكم لعرض اعمالي ومشاريعي وتطوير مهاراتي بانشاء وتطوير واجهة المستخدم",
+      "TECHNOLOGIES_USED": "التقنيات المستخدمة: Angular ",
+      "Team_Size": "حجم الفريق: 1 عضو",
+      "ROLE": "الدور:  مطور واجهة المستخدم",
+      "LINK": "https://github.com/ramaalmomanii/Portfolio"
+    },
+    "PROJECT_4": {
+      "TITLE": "تطبيق Happy Farm لسطح المكتب",
+      "DESCRIPTION": "نظام لإدارة المزارع يشمل تسجيل دخول المستخدمين، عرض المخزون، إدارة الأسعار، وحسابات التكلفة الآلية",
+      "TECHNOLOGIES_USED": "التقنيات المستخدمة: C#, MS Access",
+      "Team_Size": "حجم الفريق: 2 أعضاء",
+      "ROLE": "الدور: مطوّرة كاملة للتطبيق",
+      "LINK": "https://github.com/ramaalmomanii/UN-Project/tree/main/project"
+    },
+    "PROJECT_5": {
+      "TITLE": "مشاريع ASP.NET Core Web API",
+      "DESCRIPTION": "تطوير عدة واجهات برمجية RESTful شملت أنظمة إدارة مدرسية، صالة رياضية، ومتجر إلكتروني، مع تنفيذ المصادقة ومنطق الأعمال وعمليات CRUD للكيانات الأساسية",
+      "TECHNOLOGIES_USED": "التقنيات المستخدمة: ASP.NET Core, C#, SQL Server, MongoDB, Angular",
+      "Team_Size": "حجم الفريق: تدريب فردي",
+      "ROLE": "الدور: مطوّرة متكاملة (Full-Stack)",
+      "LINK": "https://github.com/ramaalmomanii/API"
+
+    }
+  },
+  "ABOUT_SECTION": {
+    "TITLE": "من أنا",
+    "DESCRIPTION": "أنا مطورة ويب  بخبرة في بناء تطبيقات ويب حديثة باستخدام أحدث التقنيات."
+  },
+  "SKILLS_SECTION": {
+    "TITLE": "المهارات",
+    "TECHNICAL": "المهارات التقنية: C#, ASP.NET Core, Web API, JavaScript, Node.js, HTML5, CSS3, Bootstrap, Angular, SQL Server, MongoDB, MS Access, Git & GitHub, Visual Studio, Arduino IDE, تصميم ERD",
+    "PERSONAL": "المهارات الشخصية: التواصل، العمل الجماعي، حل المشكلات، الانتباه للتفاصيل، المرونة، التعلم المستمر"
+  },
+  "CERTIFICATIONS_SECTION": {
+    "TITLE": "الشهادات",
+    "CERT_1": "NVIDIA - بناء تطبيقات معالجة اللغة الطبيعية القائمة على المحوّلات (2025)",
+    "CERT_1_LINK": "https://learn.nvidia.com/certificates?id=SS5OFyFYQh67782NjHD6dQ",
+    "CERT_2": "NVIDIA - أساسيات التعلم العميق (2024)",
+    "CERT_2_LINK": "https://learn.nvidia.com/certificates?id=MrveYIAhQwOpwBUAxIFx0w",
+    "CERT_3": "برنامج أنا أشارك (كانون الأول 2022)",
+    "HTUX_WALLET_TEXT": "مسار HTUx الكامل - 9 شهادات",
+    "HTUX_WALLET_LINK": "https://www.credential.net/profile/ramaalmomani740415/wallet"
+  },
+  "CONTACT_SECTION": {
+    "TITLE": "تواصل معي",
+    "DESCRIPTION": "إذا كنت ترغب في العمل معي أو لديك أي أسئلة، لا تتردد في التواصل.",
+    "EMAIL": " ramakalmomani@gmail.com",
+    "PHONE": "00962777",
+    "ADDRESS": "الأردن",
+    "SOCIAL_MEDIA": "وسائل التواصل الاجتماعي",
+    "LINKEDIN": "https://www.linkedin.com/in/rama-al-momani-576102229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "GITHUB": "https://github.com/ramaalmomanii?tab=repositories",
+    "FACEBOOK": "https://www.facebook.com/share/1DQn4WypQf/",
+    "YOUTUBE": "https://youtube.com/@rama.almomani?si=vb3cBW6eV2NTASqT"
+
+  }
+}

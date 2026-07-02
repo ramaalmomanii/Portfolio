@@ -1,0 +1,108 @@
+{
+  "HOME": "Home",
+  "PROJECTS": "Projects",
+  "ABOUT": "About",
+  "SKILLS": "Skills",
+  "FOOTER": "All rights reserved",
+  "VIEW_PROJECT": "View Project",
+  "RAMA_AL_MOMANI": "Rama Al-Momani",
+  "Personal_Info": "Personal Information",
+  "CONTACT": "Contact",
+  "WELCOME": "Welcome to my portfolio",
+  "DESCRIPTION": "I am a passionate web developer and UI designer, building great digital experiences.",
+  "DESCRIPTION_MORE_DETAILS": "Full-stack developer experienced with .NET C# for backend and Angular for frontend.",
+  "EXPERIENCE": {
+    "TITLE": "Experience",
+    "CURNT_JOB": "Current job: Junior Web Developer at Dalil IT",
+    "TRAINING_ASP_NET": "Training: ASP.NET Core Developer Trainee (May - Oct 2025), completed full-stack projects including School Management, Gym, and E-Commerce systems using C#, ASP.NET Core, SQL Server, MongoDB, and Angular",
+    "VOLUNTEER_WORK": "Volunteer work: Delivered a two-hour university workshop titled 'Web Development 101' attended by over 30 students.",
+    "YU_EDU": "Education: Bachelor of Computer Science from Yarmouk University, Grade: Very Good (GPA 82.2)",
+    "HTUx_CERTIICATS": "Completed the full web development track on HTUx and received a completion certificate.",
+    "HTUx_AMBASSADOR": "HTUx Ambassador: Selected as an ambassador in 2025 to represent the platform at events.",
+    "YU_REPRESENTATIVE": "Yarmouk University Representative & Organizer: Represented and organized the university's participation in the Career Expo 2025 Festival at HTU",
+    "IEC_VOLUNTEER": "Independent Election Commission Volunteer (2024): Contributed to a door-to-door awareness campaign on voter participation, and assisted in guiding citizens at polling stations on election day",
+    "HULT_PRIZE_AMBASSADOR": "Hult Prize Ambassador (2023): Promoted entrepreneurship through workshops and competition outreach at the university",
+    "BOOK_AUTHOR": "Author of One-to-Many (since 2022): Self-published an educational book covering ERDs and SQL concepts, available in local bookstores and used by university students"
+  },
+  "DESCRIPTION_SECTION": {
+    "TITLE": "About this site",
+    "DESCRIPTION": "This personal website showcases my work and projects and lets visitors learn more about me and contact me."
+  },
+  "PROJECTS_SECTION": {
+    "TITLE": "My Projects",
+    "DESCRIPTION": "Here are some projects I have worked on recently.",
+    "PROJECT_1": {
+      "TITLE": "Graduation Project: Smart Irrigation System with AI",
+      "DESCRIPTION": "A smart irrigation system using AI to monitor air and soil moisture and water tank level. Includes sensors, cloud database and a web app for remote control.",
+      "TECHNOLOGIES_USED": "Technologies: Python, React, MongoDB Atlas, C++, ESP8266, IoT Sensors",
+      "Team_Size": "Team size: 4 members",
+      "ROLE": "Role: Team lead for two months, backend developer, sensor integration and database design",
+      "LINK": "https://github.com/ramaalmomanii/Smart-Greenhouse-AI"
+    },
+    "PROJECT_2": {
+      "TITLE": "EventHub",
+      "DESCRIPTION": "A project for managing events, ticketing and reservations to practice end-to-end development.",
+      "TECHNOLOGIES_USED": "Technologies: Angular, .NET C#, SQL Server",
+      "Team_Size": "Team size: 1",
+      "ROLE": "Role: Backend, frontend and database developer",
+      "LINK": "https://github.com/ramaalmomanii/EventHub"
+    },
+    "PROJECT_3": {
+      "TITLE": "Portfolio Website",
+      "DESCRIPTION": "This site showcases my projects to develop my skills in creating and developing user interfaces.",
+      "TECHNOLOGIES_USED": "Technologies: Angular",
+      "Team_Size": "Team size: 1",
+      "ROLE": "Role: Frontend developer",
+      "LINK": "https://github.com/ramaalmomanii/Portfolio"
+    },
+    "PROJECT_4": {
+      "TITLE": "Happy Farm Desktop App",
+      "DESCRIPTION": "Farm management system with user authentication, stock display, price management, and automated cost calculations",
+      "TECHNOLOGIES_USED": "Technologies used: C#, MS Access",
+      "Team_Size": "Team size: 1 member",
+      "ROLE": "Role: Full application developer",
+      "LINK": "https://github.com/ramaalmomanii/UN-Project/tree/main/project"
+
+    },
+    "PROJECT_5": {
+      "TITLE": "ASP.NET Core Web API Projects",
+      "DESCRIPTION": "Developed multiple RESTful APIs including School Management, Gym, and E-Commerce systems, implementing authentication, business logic, and CRUD operations",
+      "TECHNOLOGIES_USED": "Technologies used: ASP.NET Core, C#, SQL Server, MongoDB, Angular",
+      "Team_Size": "Team size: Individual training",
+      "ROLE": "Role: Full-stack developer",
+      "LINK": "https://github.com/ramaalmomanii/API"
+
+    }
+  },
+  "ABOUT_SECTION": {
+    "TITLE": "About Me",
+    "DESCRIPTION": "I am a web developer experienced in building modern web applications using up-to-date technologies."
+  },
+  "SKILLS_SECTION": {
+    "TITLE": "Skills",
+    "TECHNICAL": "Technical Skills: C#, ASP.NET Core, Web API, JavaScript, Node.js, HTML5, CSS3, Bootstrap, Angular, SQL Server, MongoDB, MS Access, Git & GitHub, Visual Studio, Arduino IDE, ERD Design",
+    "PERSONAL": "Personal Skills: Communication, Teamwork, Problem Solving, Attention to Detail, Adaptability, Continuous Learning"
+  },
+  "CERTIFICATIONS_SECTION": {
+    "TITLE": "Certifications",
+    "CERT_1": "NVIDIA - Building Transformer-Based NLP Applications (2025)",
+    "CERT_1_LINK": "https://learn.nvidia.com/certificates?id=SS5OFyFYQh67782NjHD6dQ",
+    "CERT_2": "NVIDIA - Fundamentals of Deep Learning (2024)",
+    "CERT_2_LINK": "https://learn.nvidia.com/certificates?id=MrveYIAhQwOpwBUAxIFx0w",
+    "CERT_3": "Ana Usharek Program (Dec 2022)",
+    "HTUX_WALLET_TEXT": "HTUx Full Stack Track - 9 certificates",
+    "HTUX_WALLET_LINK": "https://www.credential.net/profile/ramaalmomani740415/wallet"
+  },
+  "CONTACT_SECTION": {
+    "TITLE": "Get in touch",
+    "DESCRIPTION": "If you'd like to work together or have any questions, feel free to reach out.",
+    "EMAIL": "ramakalmomani@gmail.com",
+    "PHONE": "00962777038259",
+    "ADDRESS": "Jordan",
+    "SOCIAL_MEDIA": "Social media",
+    "LINKEDIN": "https://www.linkedin.com/in/rama-al-momani-576102229",
+    "GITHUB": "https://github.com/ramaalmomanii?tab=repositories",
+    "FACEBOOK": "https://www.facebook.com/share/1DQn4WypQf/",
+    "YOUTUBE": "https://youtube.com/@rama.almomani"
+  }
+}

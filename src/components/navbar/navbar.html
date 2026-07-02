@@ -1,1 +1,19 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <div class="logo">{{ t('RAMA_AL_MOMANI') }}</div>
+
+  <ul class="nav-links">
+    <li (click)="scrollTo('home')">{{ t('HOME') }}</li>
+    <li (click)="scrollTo('about')">{{ t('ABOUT') }}</li>
+    <li (click)="scrollTo('projects')">{{ t('PROJECTS') }}</li>
+    <li (click)="scrollTo('contact')">{{ t('CONTACT') }}</li>
+  </ul>
+
+  <button class="lang-btn" (click)="toggleLang()">
+    {{ lang === 'en' ? 'العربية' : 'English' }}
+  </button>
+
+  <button class="theme-toggle" (click)="toggleTheme()" [class.dark]="isDark">
+    <span class="toggle-circle">{{ isDark ? '🌙' : '☀️' }}</span>
+  </button>
+
+</nav>
