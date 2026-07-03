@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!i18n/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
