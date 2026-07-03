@@ -1,16 +1,12 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '../../services/translate.service';
+import { TranslatePipe } from '../../Pipe/translate.pipe';
 
 @Component({
   selector: 'app-about',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './about.html',
   styleUrl: './about.css',
 })
 export class About {
-  constructor(private translateService: TranslateService) {}
-
-  t(key: string): string {
-    return this.translateService.translate(key);
-  }
+ 
 }

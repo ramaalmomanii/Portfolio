@@ -11,7 +11,7 @@ import { TranslateService } from '../services/translate.service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Home, About, Projects, Contact, Footer],
+  imports: [ Navbar, Home, About, Projects, Contact, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

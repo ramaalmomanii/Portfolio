@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '../../services/translate.service';
+import { TranslatePipe } from '../../Pipe/translate.pipe';
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './navbar.html',
   styleUrls: ['./navbar.css'],
 })
@@ -32,9 +33,7 @@ export class Navbar implements OnInit {
     }
   }
 
-  t(key: string): string {
-    return this.translateService.translate(key);
-  }
+
   toggleTheme() {
     this.isDark = !this.isDark;
     localStorage.setItem('theme', this.isDark ? 'dark' : 'light');

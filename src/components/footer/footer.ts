@@ -10,12 +10,6 @@ import { TranslatePipe } from '../../Pipe/translate.pipe';
 export class Footer {
   currentYear: number = new Date().getFullYear();
 
-  constructor(private translateService: TranslateService) { }
-
   async ngOnInit() {}
-
-  t(key: string): string {
-    return this.translateService.translate(key);
-  }
 
 }
