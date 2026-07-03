@@ -29,13 +29,19 @@ body {
 }
 
 .project-card {
+  margin: 0.5rem;
+  padding: 0.5rem;
   background: var(--card-bg);
-  transition: background 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 body {
@@ -49,6 +55,41 @@ h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
 
+.project-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--primary, #ff6fa5);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.2s ease;
+}
+  .project-card a::after {
+    transition: transform 0.25s ease;
+  }
+
+  .project-card a:hover {
+    background: var(--primary, #ff6fa5);
+    color: #fff;
+    transform: translateY(-3px);
+  }
+
+    .project-card a:hover::after {
+      transform: translateX(4px);
+      content: "→";
+
+    }
+
+.project-card a:hover::after {
+  transform: translateX(var(--arrow-dir, 4px));
+}
+
+:lang(ar) .project-card a:hover::after {
+  --arrow-dir: -4px;
+  content: "←";
+}
 section {
   padding: 4rem 2rem;
   scroll-margin-top: 80px;
@@ -287,15 +328,70 @@ body.dark-mode .navbar .theme-btn {
     line-height: 1.8;
   }
   /*about screen*/
-/*.about-container {
+.about-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  
   padding: 2rem;
   gap: 1.25rem;
   background: var(--card-bg);
 }
-*/
+
+.cv-button {
+  margin-top: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--primary, #ff6fa5);
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(255, 111, 165, 0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+  .cv-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(255, 111, 165, 0.45);
+  }
+
+  .cv-button .icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+
+
+.project-card h3 {
+  position: relative;
+  display: inline-block;
+}
+
+  .project-card h3::after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary, #ff6fa5);
+    transition: width 0.3s ease;
+  }
+
+.project-card:hover h3::after {
+  width: 100%;
+}
+.project-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+  .project-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }

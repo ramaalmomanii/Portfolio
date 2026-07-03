@@ -9,5 +9,15 @@ import { TranslatePipe } from '../../Pipe/translate.pipe';
 })
 export class Projects {
   
+  ngAfterViewInit() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
 
+    document.querySelectorAll('.project-card').forEach(el => observer.observe(el));
+  }
 }
